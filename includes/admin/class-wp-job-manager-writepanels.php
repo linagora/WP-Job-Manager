@@ -45,7 +45,7 @@ class WP_Job_Manager_Writepanels {
 				'placeholder' => '',
 				'priority'    => 3
 			),
-			'_company_website' => array(
+			'_reference' => array(
 				'label'       => __( 'Ref', 'wp-job-manager' ),
 				'placeholder' => '',
 				'priority'    => 4

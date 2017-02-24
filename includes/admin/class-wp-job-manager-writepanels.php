@@ -46,25 +46,9 @@ class WP_Job_Manager_Writepanels {
 				'priority'    => 3
 			),
 			'_company_website' => array(
-				'label'       => __( 'Company Website', 'wp-job-manager' ),
+				'label'       => __( 'Ref', 'wp-job-manager' ),
 				'placeholder' => '',
 				'priority'    => 4
-			),
-			'_company_tagline' => array(
-				'label'       => __( 'Company Tagline', 'wp-job-manager' ),
-				'placeholder' => __( 'Brief description about the company', 'wp-job-manager' ),
-				'priority'    => 5
-			),
-			'_company_twitter' => array(
-				'label'       => __( 'Company Twitter', 'wp-job-manager' ),
-				'placeholder' => '@yourcompany',
-				'priority'    => 6
-			),
-			'_company_video' => array(
-				'label'       => __( 'Company Video', 'wp-job-manager' ),
-				'placeholder' => __( 'URL to the company video', 'wp-job-manager' ),
-				'type'        => 'file',
-				'priority'    => 8
 			),
 			'_filled' => array(
 				'label'       => __( 'Position Filled', 'wp-job-manager' ),

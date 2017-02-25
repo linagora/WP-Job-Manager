@@ -33,13 +33,13 @@ class WP_Job_Manager_Writepanels {
 				'description' => __( 'Leave this blank if the location is not important.', 'wp-job-manager' ),
 				'priority'    => 1
 			),
-			'_application' => array(
-				'label'       => __( 'Application Email or URL', 'wp-job-manager' ),
-				'placeholder' => __( 'URL or email which applicants use to apply', 'wp-job-manager' ),
-				'description' => __( 'This field is required for the "application" area to appear beneath the listing.', 'wp-job-manager' ),
-				'value'       => metadata_exists( 'post', $post->ID, '_application' ) ? get_post_meta( $post->ID, '_application', true ) : $current_user->user_email,
-				'priority'    => 2
-			),
+		//	'_application' => array(
+		//		'label'       => __( 'Application Email or URL', 'wp-job-manager' ),
+		//		'placeholder' => __( 'URL or email which applicants use to apply', 'wp-job-manager' ),
+		//		'description' => __( 'This field is required for the "application" area to appear beneath the listing.', 'wp-job-manager' ),
+		//		'value'       => metadata_exists( 'post', $post->ID, '_application' ) ? get_post_meta( $post->ID, '_application', true ) : $current_user->user_email,
+		//		'priority'    => 2
+		//	),
 			'_reference' => array(
 				'label'       => __( 'Référence', 'wp-job-manager' ),
 				'placeholder' => '',

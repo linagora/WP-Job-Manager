@@ -28,8 +28,8 @@ class WP_Job_Manager_Writepanels {
 
 		$fields = array(
 			'_job_location' => array(
-				'label' => __( 'Location', 'wp-job-manager' ),
-				'placeholder' => __( 'e.g. "London"', 'wp-job-manager' ),
+				'label' => __( 'Lieu', 'wp-job-manager' ),
+				'placeholder' => __( 'e.g. "Paris"', 'wp-job-manager' ),
 				'description' => __( 'Leave this blank if the location is not important.', 'wp-job-manager' ),
 				'priority'    => 1
 			),
@@ -41,7 +41,7 @@ class WP_Job_Manager_Writepanels {
 				'priority'    => 2
 			),
 			'_reference' => array(
-				'label'       => __( 'Ref', 'wp-job-manager' ),
+				'label'       => __( 'Référence', 'wp-job-manager' ),
 				'placeholder' => '',
 				'priority'    => 4
 			),

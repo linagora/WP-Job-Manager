@@ -40,11 +40,6 @@ class WP_Job_Manager_Writepanels {
 				'value'       => metadata_exists( 'post', $post->ID, '_application' ) ? get_post_meta( $post->ID, '_application', true ) : $current_user->user_email,
 				'priority'    => 2
 			),
-			'_company_name' => array(
-				'label'       => __( 'Company Name', 'wp-job-manager' ),
-				'placeholder' => '',
-				'priority'    => 3
-			),
 			'_reference' => array(
 				'label'       => __( 'Ref', 'wp-job-manager' ),
 				'placeholder' => '',

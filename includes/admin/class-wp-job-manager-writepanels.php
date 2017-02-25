@@ -46,7 +46,7 @@ class WP_Job_Manager_Writepanels {
 				'priority'    => 4
 			),
 			'_filled' => array(
-				'label'       => __( 'Position Filled', 'wp-job-manager' ),
+				'label'       => __( 'Position complète', 'wp-job-manager' ),
 				'type'        => 'checkbox',
 				'priority'    => 9,
 				'description' => __( 'Filled listings will no longer accept applications.', 'wp-job-manager' ),
@@ -54,7 +54,7 @@ class WP_Job_Manager_Writepanels {
 		);
 		if ( $current_user->has_cap( 'manage_job_listings' ) ) {
 			$fields['_featured'] = array(
-				'label'       => __( 'Featured Listing', 'wp-job-manager' ),
+				'label'       => __( 'Annonce prioritaire', 'wp-job-manager' ),
 				'type'        => 'checkbox',
 				'description' => __( 'Featured listings will be sticky during searches, and can be styled differently.', 'wp-job-manager' ),
 				'priority'    => 10
